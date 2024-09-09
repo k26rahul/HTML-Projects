@@ -5,6 +5,9 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 ## Level 0
 
 - **📰 [News of the Day](https://k26rahul.github.io/HTML-Projects/Level-0/news-of-the-day)**
+- **📝 [To-Do List](https://k26rahul.github.io/HTML-Projects/Level-0/my-todo-list)**
+- **🌻 [Sunflower Story](https://k26rahul.github.io/HTML-Projects/Level-0/sunflower)**
+- **⭕ [Tic-Tac-Toe Grid](https://k26rahul.github.io/HTML-Projects/Level-0/tic-tac-toe-grid)**
 
 ## Level 1
 
@@ -24,12 +27,8 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 - **🚀 [Space Travel](https://k26rahul.github.io/HTML-Projects/Level-1/space-travel)**
 - **🎵 [Twinkle Twinkle Little Star](https://k26rahul.github.io/HTML-Projects/Level-1/twinkle-twinkle-little-star)**
 
-## Level 2
-
-(For now, no projects placed in this level)
-
 ## Practice
 
-- **📝 [1st Webpage](https://k26rahul.github.io/HTML-Projects/Practice/1st-webpage.html)**
+- **🌟 [1st Webpage](https://k26rahul.github.io/HTML-Projects/Practice/1st-webpage.html)**
 
 View live on [GitHub Pages](https://k26rahul.github.io/HTML-Projects).
