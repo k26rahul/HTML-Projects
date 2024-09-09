@@ -6,7 +6,7 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 
 - **📰 [News of the Day](https://k26rahul.github.io/HTML-Projects/Level-0/news-of-the-day)**
 - **📝 [To-Do List](https://k26rahul.github.io/HTML-Projects/Level-0/my-todo-list)**
-- **🌻 [Sunflower Story](https://k26rahul.github.io/HTML-Projects/Level-0/sunflower)**
+- **🌻 [The Sunflower Friend](https://k26rahul.github.io/HTML-Projects/Level-0/sunflower)**
 - **⭕ [Tic-Tac-Toe Grid](https://k26rahul.github.io/HTML-Projects/Level-0/tic-tac-toe-grid)**
 
 ## Level 1
