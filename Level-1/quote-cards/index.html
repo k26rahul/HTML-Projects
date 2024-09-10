@@ -6,15 +6,17 @@
     <title>Beautiful Quotes</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
         margin: 0;
         padding: 20px;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
       }
+
       h1 {
         text-align: center;
         color: #333;
       }
+
       .quote-container {
         max-width: 800px;
         margin: 0 auto;
@@ -22,44 +24,54 @@
         flex-wrap: wrap;
         justify-content: space-around;
       }
+
       .quote-card {
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         margin: 10px;
         padding: 20px;
         width: calc(50% - 20px);
+        background-color: white;
+        border-radius: 10px;
         border: 2px solid;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       }
+
       .quote-text {
         font-size: 18px;
         font-style: italic;
         margin-bottom: 10px;
       }
+
       .quote-author {
         font-weight: bold;
         text-align: right;
       }
+
       @media (max-width: 600px) {
         .quote-card {
           width: 100%;
         }
       }
+
       .quote-card:nth-child(1) {
         border-color: #fc4141;
       }
+
       .quote-card:nth-child(2) {
         border-color: #f19f2c;
       }
+
       .quote-card:nth-child(3) {
         border-color: #6f6f6f;
       }
+
       .quote-card:nth-child(4) {
         border-color: #2b8e2e;
       }
+
       .quote-card:nth-child(5) {
         border-color: #2196f3;
       }
+
       .quote-card:nth-child(6) {
         border-color: #8d1fa0;
       }
