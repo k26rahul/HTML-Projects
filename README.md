@@ -5,7 +5,11 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 ## Level 0
 
 - **🎂 [Birthday Card](https://k26rahul.github.io/HTML-Projects/Level-0/birthday-card)**
-- **📝 [To-Do List](https://k26rahul.github.io/HTML-Projects/Level-0/my-todo-list)**
+- **📦 [Centered Box](https://k26rahul.github.io/HTML-Projects/Level-0/centered-box)**
+- **🎂 [Five Birthday Cards](https://k26rahul.github.io/HTML-Projects/Level-0/five-birthday-cards)**
+- **🔠 [I Am H2](https://k26rahul.github.io/HTML-Projects/Level-0/i-am-h2)**
+- **📊 [Mood Tracker](https://k26rahul.github.io/HTML-Projects/Level-0/mood-tracker)**
+- **📝 [My Todo List](https://k26rahul.github.io/HTML-Projects/Level-0/my-todo-list)**
 - **📰 [News of the Day](https://k26rahul.github.io/HTML-Projects/Level-0/news-of-the-day)**
 - **🖼️ [Simple Picture Gallery](https://k26rahul.github.io/HTML-Projects/Level-0/simple-picture-gallery)**
 - **👤 [Simple Profile Page](https://k26rahul.github.io/HTML-Projects/Level-0/simple-profile-page)**

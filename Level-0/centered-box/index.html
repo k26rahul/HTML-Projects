@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centered Box</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, sans-serif;
+      }
+
+      .outer-box,
+      .middle-box,
+      .inner-box {
+        width: 60%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 20px solid #eceff1;
+        border-radius: 50px;
+      }
+
+      .outer-box {
+        background-color: #d32f2f;
+      }
+
+      .middle-box {
+        background-color: #2ecc71;
+      }
+
+      .inner-box {
+        background-color: #90caf9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-box">
+      <div class="middle-box">
+        <div class="inner-box"><h1>🌻</h1></div>
+      </div>
+    </div>
+  </body>
+</html>
