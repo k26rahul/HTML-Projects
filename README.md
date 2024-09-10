@@ -28,6 +28,7 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 - **⭐ [Cat Gallery](https://k26rahul.github.io/HTML-Projects/Level-1/cat-gallery)**
 - **🎨 [Colorful Boxes](https://k26rahul.github.io/HTML-Projects/Level-1/colorful-boxes)**
 - **🔐 [Login Page](https://k26rahul.github.io/HTML-Projects/Level-1/login-page)**
+- **🍽️ [Restaurant Menu](https://k26rahul.github.io/HTML-Projects/Level-1/restaurant-menu)**
 - **⛩️ [Virupaksha Temple](https://k26rahul.github.io/HTML-Projects/Level-1/virupaksha-temple)**
 - **🎵 [Twinkle Twinkle Little Star](https://k26rahul.github.io/HTML-Projects/Level-1/twinkle-twinkle-little-star)**
 
