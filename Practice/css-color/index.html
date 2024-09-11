@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .text-tomato {
+        color: tomato;
+      }
+
+      .text-darkgreen {
+        color: darkgreen;
+      }
+
+      .text-crimson {
+        color: crimson;
+      }
+
+      .text-gold {
+        color: gold;
+      }
+
+      .bg-type-1 {
+        background-color: navajowhite;
+      }
+
+      .bg-type-2 {
+        background-color: cornflowerblue;
+      }
+
+      div {
+        /* spacing: inside the border */
+        padding: 10px;
+
+        /* spacing: outside the border */
+        margin: 10px 0;
+      }
+
+      .border-1 {
+        border: 2px solid forestgreen;
+      }
+
+      .border-2 {
+        border: 2px dotted darkgoldenrod;
+      }
+
+      .border-3 {
+        border: 5px solid gray;
+        border-radius: 20px;
+      }
+
+      #rainbow {
+        /* colors as names */
+        color: red;
+
+        /* RR GG BB */
+        /* R, G, B are color components */
+        /* #ff0000 is hexadecimal notation */
+        /* each hex digit is: 0-9, A-F */
+        /* each digit has 16 possible values (10 numbers + 6 letters) */
+
+        /*
+          RR      GG      BB
+          16*16   16*16   16*16
+          256     256     256
+          color space: 256*256*256 possible colors in hex
+          16,777,216 ~ 16M
+        */
+
+        /*
+          #ff0000
+          R 
+          f: 16
+          f: 16
+
+          G, B: 0
+
+          rgb(256, 0, 0)
+          👆 rgb vector with 3 components: R,G,B channel values
+        */
+        color: #ff0000;
+
+        /*
+          hex to decimal:
+          0-9, A: 10, B: 11, ... F: 16
+
+          #8f1500
+
+          R: 9*16
+          G: 2*5
+          B: 0
+          rgb(144, 12, 0)
+        */
+        color: #8f1500;
+      }
+
+      #rainbow {
+        /* color: red; */
+        /* color: #ff0000; */
+        /* color: rgb(256, 0, 0); */
+
+        /* color: yellow; */
+        /* color: #ffff00; */
+        color: rgb(256, 256, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="rainbow">make me rainbow!!</div>
+
+    <div class="border-1">i have a border</div>
+    <div class="border-2">i have a border</div>
+    <div class="border-3">i have a border</div>
+
+    <p class="text-tomato bg-type-1">make me colored</p>
+    <p class="text-darkgreen bg-type-1">make me colored</p>
+    <p class="text-crimson bg-type-2">make me colored</p>
+    <p class="text-gold bg-type-2">make me colored</p>
+  </body>
+</html>
