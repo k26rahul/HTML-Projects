@@ -1,0 +1,22 @@
+We Are Going To Learn Css Color [title case: ctrl+alt+c T]
+We are going to learn css color [sentence case: ctrl+alt+c O]
+
+we-are-going-to-learn-css-color [kebab case: ctrl+alt+c k] for slugs
+we_are_going_to_learn_css_color [snake case: ctrl+alt+c s] for vars (python standard)
+weAreGoingToLearnCssColor [camel case: ctrl+alt+c c] for vars (js standard)
+WeAreGoingToLearnCssColor [pascal case: ctrl+alt+c p] for classes
+
+ctrl+alt+c, t
+>>> 1. ctrl+alt+c 2. release keys 3. press t
+
+ctrl+alt+c, ctrl+alt+t
+>>> 1. ctrl+alt+c 2. don't release keys 3. press t
+
+Title: Amid Strained Ties, 2 Maldives Ministers Quit, President To Visit India
+URL: https://www.ndtv.com/world-news/maldivies-president-mohamed-muizzu-to-visit-india-soon-2-ministers-resign-amid-strained-ties-6533861
+slug: maldivies-president-mohamed-muizzu-to-visit-india-soon-2-ministers-resign-amid-strained-ties-6533861
+
+🤮 https://www.ndtv.com/world-news/Amid%20Strained%20Ties,%202%20Maldives%20Ministers%20Quit,%20President%20To%20Visit%20India
+
+WHY???
+<space> is url encoded into "%20". why??? bcz of encoding scheme. we'll see it later.

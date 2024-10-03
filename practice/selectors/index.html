@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* element selector */
+      p {
+        padding: 10px;
+        border: 2px solid gray;
+        border-radius: 5px;
+      }
+
+      /* apply same style to multiple selectors at once */
+      h4,
+      h2 {
+        color: blue;
+        text-shadow: 2px 2px 2px skyblue;
+      }
+
+      /* .blue-heading {
+        color: blue;
+        text-shadow: 2px 2px 2px skyblue;
+      } */
+
+      /* h4 {
+        color: blue;
+        text-shadow: 2px 2px 2px skyblue;
+      }
+
+      h2 {
+        color: blue;
+        text-shadow: 2px 2px 2px skyblue;
+      } */
+
+      /* class selector */
+      .hello {
+        font-style: italic;
+      }
+
+      /* id selector */
+      #hello-vidu {
+        color: aqua;
+      }
+
+      #hello-muskan {
+        color: orange;
+      }
+
+      #hello-vidu,
+      h4 {
+        font-family: cursive;
+      }
+
+      .message {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .highlight {
+        padding: 4px 0;
+        background-color: yellow;
+        border: 1px solid yellowgreen;
+      }
+
+      /* .highlight-in-para {
+        background-color: azure;
+        border-color: bisque;
+      } */
+
+      /* descendent selector (parent child) */
+      /* parent child */
+      /* grand-parent parent child */
+      /* ... in same fashion */
+      p .highlight {
+        background-color: azure;
+        border-color: bisque;
+      }
+
+      article {
+        border: 5px solid navy;
+      }
+
+      article p {
+        border: none;
+      }
+
+      /* target: .highlight inside paragraphs inside articles */
+      /* this entire this is a single selector */
+      article p .highlight {
+        color: darkgreen;
+        background-color: lightgreen;
+        border-color: aquamarine;
+      }
+
+      /* 💥 combine two big selectors */
+      /* syntax: desc sel, desc sel */
+      article p .highlight,
+      article div .highlight {
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- article is a div but has semantic meaning of textual content holder -->
+    <!-- Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in web pages -->
+    <!-- Semantic: the meaning of words and phrases -->
+    <article>
+      <p>This is <span class="highlight">main text</span> of this website.</p>
+      <p>This is <span class="highlight">main text</span> of this website.</p>
+      <p>This is <span class="highlight">main text</span> of this website.</p>
+      <div>
+        This is the <span class="highlight">end of article</span>. Thanks for
+        reading.
+      </div>
+    </article>
+    <div class="message">
+      Hello Vidu, you are the <span class="highlight">best person</span> in
+      entire world!!
+    </div>
+    <p>
+      This is a
+      <span class="highlight highlight-in-para">beautiful morning</span> and we
+      are doing <span class="highlight highlight-in-para">magical stuff!!</span>
+    </p>
+    <h2 class="blue-heading">I am h2</h2>
+    <h4 class="blue-heading">I am h4</h4>
+    <p id="hello-vidu" class="hello">Hello Vidu!!</p>
+    <p id="hello-muskan" class="hello">Hello Muskan!!</p>
+    <p>I am just a basic paragraph.</p>
+  </body>
+</html>
