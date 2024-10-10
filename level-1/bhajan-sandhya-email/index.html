@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bhajan Sandhya</title>
     <style>
-      #body {
+      .container-outer {
         background-color: #a5493a;
       }
 
@@ -73,8 +73,13 @@
       }
 
       @media only screen and (max-width: 600px) {
+        .container-outer {
+          padding: 0 5px;
+        }
+
         .container {
           padding: 10px;
+          font-size: 16px;
         }
 
         h1 {
@@ -92,9 +97,9 @@
     </style>
   </head>
   <body>
-    <div id="body">
+    <div class="container-outer">
       <div class="container">
-        <h1>Bhajan Sandhya - Devotional Music Competition (Register Now!)</h1>
+        <h1>Bhajan Sandhya - Devotional Music Competition <br />(Register Now!)</h1>
 
         <p>
           We are excited to announce Bhajan Sandhya, a soulful music competition, organized by Gir x
