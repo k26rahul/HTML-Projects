@@ -20,6 +20,7 @@ Simple HTML & CSS projects. Created on September 9, 2024.
 ## Level 1
 
 - https://k26rahul.github.io/HTML-Projects/level-1/bhajan-sandhya-email/
+- https://k26rahul.github.io/HTML-Projects/level-1/bhajan-sandhya-email/index-css-inline.html
 
 1. **📚 [Devabhasa Sanskrit Society](https://k26rahul.github.io/HTML-Projects/level-1/devabhasa-sanskrit-society)**
 2. **📅 [Simple Events List](https://k26rahul.github.io/HTML-Projects/level-1/simple-events-list)**
